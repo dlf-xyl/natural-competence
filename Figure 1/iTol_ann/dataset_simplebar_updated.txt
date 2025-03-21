@@ -1,0 +1,243 @@
+DATASET_SIMPLEBAR
+#In simple bar charts, each ID is associated to a single numeric value which is displayed as a bar outside the tree.
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL	label 1
+
+#dataset color (can be changed later)
+COLOR	#000000
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+#dataset scale: you can simply set the values where the scale will be drawn
+#DATASET_SCALE,2000,10000,20000
+
+#or you can specify value, label, color, width, style and label size factor for each scale line (dash separated, format: VALUE-LABEL-COLOR-WIDTH-DASHED-LABEL_SCALE_FACTOR))
+#DATASET_SCALE,2000-2k line-#0000ff-5-1-1,10000-line at 10k-#ff0000-1-0-2,20000-3rd line-#00ff00-5-1-1
+
+#Each dataset can have a legend, which is defined using LEGEND_XXX fields below
+#For each row in the legend, there should be one shape, color and label.
+#Optionally, you can define an exact legend position using LEGEND_POSITION_X and LEGEND_POSITION_Y. To use automatic legend positioning, do NOT define these values
+#Optionally, shape scaling can be present (LEGEND_SHAPE_SCALES). For each shape, you can define a scaling factor between 0 and 1.
+#To order legend entries horizontally instead of vertically, set LEGEND_HORIZONTAL to 1
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE,Dataset legend
+#LEGEND_POSITION_X,100
+#LEGEND_POSITION_Y,100
+#LEGEND_HORIZONTAL,0
+#LEGEND_SHAPES,1,2,3
+#LEGEND_COLORS,#ff0000,#00ff00,#0000ff
+#LEGEND_LABELS,value1,value2,value3
+#LEGEND_SHAPE_SCALES,1,1,0.5
+
+
+#maximum width
+#WIDTH,1000
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN	10
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL,0
+
+#show dashed lines between leaf labels and the dataset
+#DASHED_LINES,1
+
+#bar height factor; Default bar height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+#HEIGHT_FACTOR,1
+
+#Display individual values above the bars
+SHOW_VALUE	1
+
+#Display custom bar labels, when defined. The label can be specified after the numeric value in the DATA section below.
+#SHOW_LABELS,0
+
+#Position of the value or custom label, relative to the bar (when SHOW_VALUE or SHOW_LABELS are set to 1)
+#can be one of: outside-right, outside-left, left, center, right
+#LABEL_POSITION,outside-right
+
+#shift all labels horizontally and/or vertically
+#LABEL_SHIFT_X,0
+#LABEL_SHIFT_Y,0
+
+#add a colored outline to the label font; useful when displaying labels over similarly colored boxes (e.g. black font on a dark box)
+#LABEL_OUTLINE_WIDTH,0
+#LABEL_OUTLINE_COLOR,#ffffff
+
+#multiply the size of all labels by this factor
+#LABEL_SIZE_FACTOR,1
+
+
+#Bars are aligned to the node lines by default. Using BAR_SHIFT, you can move them all up/down by a fixed amount
+#BAR_SHIFT,0
+
+#BAR_ZERO specifies which dataset value will be used as a starting point for drawing the bars. Dataset values smaller than BAR_ZERO will be displayed to the left (possibly overlapping the tree, unless MARGIN is increased)
+#BAR_ZERO,0
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around the bars
+#BORDER_WIDTH,0
+
+#border color; used when BORDER_WIDTH is above 0
+#BORDER_COLOR,#0000ff
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+#only numeric values are required for each ID, custom labels can be optionally provided as the second field (shown when SHOW_LABELS is set to 1) 
+DATA
+14B1	5.18E-03
+14B2	1.26E-02
+14B3	2.00E-02
+14B5	7.78E-03
+14B7	5.98E-04
+15B2	3.07E-02
+15B3	1.43E-02
+15M1	1.33E-02
+16B1	4.71E-03
+16B2	3.10E-03
+16B3	1.39E-04
+16B4	2.44E-02
+16B5	9.36E-04
+16M2	6.52E-02
+16M3	4.15E-01
+16M5	1.89E-02
+16M6	5.83E-03
+16M7	7.40E-02
+16M8	5.51E-03
+3SVG	0.00E+00
+4rd+1	0.00E+00
+Alma311	0.00E+00
+AlmaReb2	7.23E-03
+Alpha3	0.00E+00
+ALS10T14	5.19E-03
+ALS10T3	0.00E+00
+ALS12T1	1.32E-02
+ALS14T3	0.00E+00
+ALS14T5	4.84E-03
+ALS17T10	4.72E-03
+ALS17T9	3.15E-02
+ALS6	1.48E-03
+Ann-1	0.00E+00
+B3_SN17-2_IS	3.58E-03
+BBI10	0.00E+00
+BBI80	0.00E+00
+CFBP7969	0.00E+00
+CFBP7970	0.00E+00
+CFBP8068	0.00E+00
+CFBP8072	0.00E+00
+CFBP8073	0.00E+00
+CFBP8074	0.00E+00
+CFBP8075	0.00E+00
+CFBP8082	0.00E+00
+CFBP8083	0.00E+00
+CFBP8084	0.00E+00
+CFBP8351	1.73E-05
+CFBP8356	0.00E+00
+CFBP8416	0.00E+00
+CFBP8417	0.00E+00
+CFBP8418	0.00E+00
+CFBP8478	0.00E+00
+CO33	0.00E+00
+De_Donno	0.00E+00
+Dixon	0.00E+00
+ESVL	0.00E+00
+Fillmore	0.00E+00
+GILGRA274ext	0.00E+00
+IAS-AXF212H7	0.00E+00
+IAS-AXF64H11	0.00E+00
+IVIA5235	0.00E+00
+IVIA5770	4.36E-07
+IVIA5901	0.00E+00
+IVIA6902	0.00E+00
+Je1	3.09E-02
+Je103	2.29E-03
+Je118	1.14E-03
+Je13	6.64E-03
+Je17	1.48E-01
+Je35	1.71E-02
+Je4	1.18E-03
+Je43	4.94E-03
+Je51	1.68E-02
+Je60	1.03E-03
+Je63	8.46E-02
+Je73	1.95E-03
+Je78	2.52E-02
+Je92	4.99E-03
+L95-1	4.55E-02
+LA-Y3C	1.32E-04
+LLAFAL718A	0.00E+00
+LM10	0.00E+00
+M12	0.00E+00
+M23	3.01E-06
+MEDPRI047	0.00E+00
+Oak92-10	0.00E+00
+OC8	0.00E+00
+PD7202	0.00E+00
+R2XF4358_18	9.19E-05
+RBCF119	0.00E+00
+Red_Oak_2	0.00E+00
+RH1	0.00E+00
+Riv11	0.00E+00
+Riv13	3.35E-07
+Riv16	0.00E+00
+Riv19	3.17E-08
+Riv25	0.00E+00
+Riv5	0.00E+00
+Salento-1	0.00E+00
+Santa29b	0.00E+00
+SLO	1.19E-01
+SRBB	0.00E+00
+TemeculaL	5.36E-03
+UVA519_1B	0.00E+00
+VALVAL072Ext	0.00E+00
+XF3348	0.00E+00
+XF3967_18	4.70E-06
+XYL1752_17	0.00E+00
+XYL1961	0.00E+00
+XYL1966_18	0.00E+00
+XYL1968_18	0.00E+00
+XYL1981_17	0.00E+00
+XYL1981_18	0.00E+00
+XYL2014_18	1.08E-04
+XYL2017_18	1.31E-04
+XYL2055_17	7.58E-06
+XYL2093_18	5.60E-06
+XYL2153_18	6.08E-06
+XYL461	3.74E-06
+XYL466_19	0.00E+00
+XYL468	0.00E+00
+BB08-1	3.63E-05
+BBI64	0.00E+00
+BH-elm	1.23E-04
+CCPM1	1.65E-03
+Conn-creek	8.24E-05
+EB92-1	1.04E-04
+GAplum	0.00E+00
+AlmaEM3	7.48E-05
+Temecula1Star	2.15E-04
+Temecula1	4.76E-04
+WM1-1	2.40E-02
+Fetzer	1.93E-04
