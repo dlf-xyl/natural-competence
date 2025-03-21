@@ -1,0 +1,293 @@
+DATASET_HEATMAP
+#In heatmaps, each ID is associated to multiple numeric values, which are displayed as a set of colored boxes defined by a color gradient
+#lines starting with a hash are comments and ignored during parsing
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+#SEPARATOR TAB
+SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL Sequence_Identity(%)
+
+#dataset color (can be changed later)
+COLOR #ff0000
+
+#define labels for each individual field column
+FIELD_LABELS FimT3 PilB PilC PilD PilM PilN PilO PilP PilQ PilT PilZ
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+
+#Heatmaps can have an optional Newick formatted tree assigned. Its leaf IDs must exactly match the dataset FIELD_LABELS.
+#The tree will be used to sort the dataset fields, and will be displayed above the dataset. It can have branch lengths defined.
+#All newlines and spaces should be stripped from the tree, and COMMA cannot be used as the dataset separator if a FIELD_TREE is provided.
+#FIELD_TREE (((fimT3:0.2,pilM:0.5):1,(pilB:0.2,pilC:0.3):1.2):0.5,(pilD:0.1,pilN:0.5):0.8):1;
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#Each dataset can have a legend, which is defined using LEGEND_XXX fields below
+#For each row in the legend, there should be one shape, color and label.
+#Optionally, you can define an exact legend position using LEGEND_POSITION_X and LEGEND_POSITION_Y. To use automatic legend positioning, do NOT define these values
+#Optionally, shape scaling can be present (LEGEND_SHAPE_SCALES). For each shape, you can define a scaling factor between 0 and 1.
+#To order legend entries horizontally instead of vertically, set LEGEND_HORIZONTAL to 1
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE,Dataset legend
+#LEGEND_SCALE,1
+#LEGEND_POSITION_X,100
+#LEGEND_POSITION_Y,100
+LEGEND_HORIZONTAL,0
+#LEGEND_SHAPES,1,2,3
+#LEGEND_COLORS,#ff0000,#00ff00,#0000ff
+#LEGEND_LABELS,value1,value2,value3
+#LEGEND_SHAPE_SCALES,1,1,0.5
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN 20
+
+#width of the individual boxes
+STRIP_WIDTH 100
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL 0
+
+
+#show dashed lines between leaf labels and the dataset
+#DASHED_LINES 1
+
+#if a FIELD_TREE is present, it can be hidden by setting this option to 0
+#SHOW_TREE 1
+
+#define the color for the NULL values in the dataset. Use the letter X in the data to define the NULL values
+COLOR_NAN #A9A9A9
+
+#automatically create and display a legend based on the color gradients and values defined below
+#AUTO_LEGEND 1
+
+#define the heatmap gradient colors. Values in the dataset will be mapped onto the corresponding color gradient.
+COLOR_MIN #fde725
+COLOR_MAX #440154
+
+#you can specify a gradient with three colors (e.g red to yellow to green) by setting 'USE_MID_COLOR' to 1, and specifying the midpoint color
+#USE_MID_COLOR 1
+#COLOR_MID #ffff00
+
+#By default, color gradients will be calculated based on dataset values. You can force different values to use in the calculation by setting the values below:
+#USER_MIN_VALUE 0
+#USER_MID_VALUE 500
+#USER_MAX_VALUE 1000
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around individual cells
+BORDER_WIDTH 5
+
+#border color; used only when BORDER_WIDTH is above 0
+BORDER_COLOR #000000
+
+#display or hide the text labels above each field column
+#SHOW_LABELS 1
+
+#text label size factor
+#SIZE_FACTOR 1
+
+#text label rotation
+#LABEL_ROTATION 0
+
+#text label shift in pixels (positive or negative)
+#LABEL_SHIFT 0
+
+#normalize the data using the function specified in NORMALIZATION_TYPE. DATA_NORMALIZATION can be set to
+#'rows' (normalize data for each tree leaf) or 'columns' (normalize data for each heatmap field)
+#DATA_NORMALIZATION rows
+
+#type of normalization to apply. The following types are available:
+#normal: values will be normalized between values A and B (specified in NORMALIZATION_RANGE) using the formula A+(val-min)*(B-A)/(max-min)
+#mean: values will be normalized between -1 and 1 using the formula (val-mean)/(max-min)
+#scaling: values will be Z-score normalized using the formula (val-mean)/std.dev
+#NORMALIZATION_TYPE scaling
+
+#used to define the A-B range for standard normalization
+#NORMALIZATION_RANGE 0 3
+
+#Display the actual values inside the heatmap boxes. Can be either 'original' or 'normalized'. If the data is not normalized, original values will be used in any case.
+#DISPLAY_VALUES normalized
+
+#round the display values to this number of decimal points
+#ROUND_VALUES 2
+
+#if set to 1, display values using scientific notation (e.g. 1e3 is 1000). Can be combined with ROUND_VALUES
+#VALUES_SCI_NOTATION 1
+
+#color of the value labels
+#VALUE_COLOR #0000ff
+
+#if set to 1, calculate the value label color automatically, based on the darkness of the heatmap box. Labels will be white or black.
+#VALUE_AUTO_COLOR 1
+
+#shift the position of the value labels by the specified number of pixels (X and Y)
+#VALUE_SHIFT 0 0
+
+#rotate the value labels by this angle
+#VALUE_ROTATION 0
+
+#multiply the value label font size by this factor
+#VALUE_SIZE_FACTOR 1
+
+
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#ID1 value1 value2 value3 value4 value5 value6
+#You can use the 'X' letter instead of the numeric value to denote the empty fields. These will be colored using 'COLOR_NAN' option set above.
+#9606 100 300 250 100 50 210
+#15303 20 X 130 200 300 15
+14B1 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+14B2 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+14B3 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+14B5 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+14B7 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+15B2 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+15B3 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+15M1 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+16B1 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+16B2 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+16B3 100 99.827 99.762 100 99.721 100 100 100 100 100 99.153
+16B4 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+16B5 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+16M2 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+16M3 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+16M5 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+16M6 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+16M7 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+16M8 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+3SVG 100 100 99.762 100 99.721 100 100 100 100 X 99.153
+4rd+1 98.462 99.133 99.286 100 99.162 99.545 98.649 99.432 99.686 100 99.153
+ALS10T14 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+ALS10T3 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+ALS12T1 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+ALS14T3 98.462 98.96 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+ALS14T5 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+ALS17T10 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+ALS17T9 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+ALS6 98.462 99.307 99.524 100 99.162 99.545 98.649 99.432 99.686 100 99.153
+Alma311 98.462 99.133 99.524 100 99.162 99.545 98.649 99.432 99.678 100 99.153
+AlmaEM3 98.462 99.133 99.524 100 99.162 99.545 98.649 99.432 99.686 100 99.153
+AlmaReb2 98.974 98.96 97.857 100 97.486 99.091 99.099 98.864 99.843 X 99.153
+Alpha3 100 99.827 99.762 100 99.721 100 100 100 100 100 99.153
+Ann-1 98.974 99.48 99.524 100 X 99.091 100 100 97.959 100 99.153
+B3_SN17-2_IS 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+BB08-1 98.462 99.133 99.524 100 99.162 99.545 98.649 99.432 99.686 100 99.153
+BBI10 98.462 99.133 99.524 100 99.162 99.545 98.649 X 99.686 100 99.153
+BBI64 98.462 99.133 99.524 100 99.162 99.545 98.649 99.432 X 100 99.153
+BBI80 98.462 99.133 99.524 100 X 99.545 98.649 99.432 99.686 100 99.153
+BH-elm 98.462 99.133 99.524 100 99.162 99.545 98.649 99.432 99.686 100 99.153
+CCPM1 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+CFBP7969 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+CFBP7970 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+CFBP8068 98.462 99.133 99.524 100 99.162 99.545 98.649 X 99.686 100 99.153
+CFBP8072 X 99.307 99.762 99.303 98.603 95 96.396 99.432 98.116 99.709 99.153
+CFBP8073 98.974 99.653 99.762 100 99.721 99.545 100 100 100 100 99.153
+CFBP8074 X 99.307 99.762 86.644 98.603 95 96.396 99.432 X 99.709 98.305
+CFBP8075 98.462 99.307 99.524 100 99.162 99.545 98.649 99.432 99.528 100 99.153
+CFBP8082 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+CFBP8083 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+CFBP8084 100 99.133 99.524 100 X 100 99.55 100 99.686 100 99.153
+CFBP8351 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+CFBP8356 100 99.48 99.524 100 99.721 99.091 100 99.432 99.686 100 99.153
+CFBP8416 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+CFBP8417 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+CFBP8418 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+CFBP8478 100 99.48 99.524 100 99.721 99.091 100 99.432 99.686 100 99.153
+CO33 100 99.48 99.524 100 99.721 99.091 100 99.432 99.686 100 99.153
+Conn-creek 100 100 99.762 100 99.721 100 100 100 100 99.709 99.153
+De_Donno X 99.133 X 98.955 98.603 95 96.396 99.432 98.116 99.709 99.153
+Dixon 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 X 100 99.153
+EB92-1 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+ESVL 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+Fetzer 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Fillmore 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 X 100 99.153
+GAplum 98.462 99.133 99.524 100 98.315 99.545 98.649 98.864 99.058 100 99.153
+GILGRA274ext 98.462 99.133 99.524 100 99.162 X 98.649 98.864 99.215 100 99.153
+IAS-AXF212H7 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+IAS-AXF64H11 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 X 100 94.068
+IVIA5235 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+IVIA5770 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+IVIA5901 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+IVIA6902 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 99.215 100 97.345
+Je1 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Je103 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Je118 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Je13 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Je17 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Je35 100 100 99.762 100 99.721 100 100 100 100 99.709 99.153
+Je4 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Je43 100 100 99.762 100 99.721 100 100 100 100 99.709 99.153
+Je51 100 100 99.762 100 99.721 100 100 100 100 99.709 99.153
+Je60 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Je63 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Je73 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Je78 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Je92 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+L95-1 97.949 99.307 99.524 100 99.441 99.545 98.198 98.864 99.215 100 99.153
+LA-Y3C 98.462 99.133 99.524 100 99.162 99.545 98.649 99.432 99.686 100 99.153
+LLAFAL718A 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 X X 99.153
+LM10 98.462 98.96 99.524 100 99.162 99.545 98.649 98.864 X 100 99.153
+M12 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+M23 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+MEDPRI047 98.974 99.48 99.524 100 99.721 99.091 100 100 97.959 100 99.153
+OC8 98.974 99.48 99.524 100 99.721 99.091 100 100 97.959 100 99.153
+Oak92-10 98.462 99.133 99.524 100 99.162 99.545 98.649 99.432 99.686 100 99.153
+PD7202 X 99.133 99.524 98.955 98.603 95 96.396 99.432 98.116 99.709 99.153
+R2XF4358_18 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+RBCF119 98.462 98.96 99.524 100 99.162 99.545 98.649 99.432 99.686 100 99.153
+RH1 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+Red_Oak_2 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 X 100 99.153
+Riv11 100 99.133 99.524 100 98.883 100 99.55 100 99.686 100 99.153
+Riv13 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Riv16 100 99.133 99.524 100 98.883 100 99.55 100 99.686 100 99.153
+Riv19 100 99.133 99.524 100 98.883 100 99.55 100 99.686 100 99.153
+Riv25 100 99.133 99.524 100 98.883 100 99.55 100 99.686 100 99.153
+Riv5 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 X 100 99.153
+SLO 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+SRBB 98.462 99.133 99.524 100 99.162 99.545 X 99.432 99.686 100 99.153
+Salento-1 X 99.133 99.524 98.955 98.603 95 96.396 99.432 98.116 99.709 99.153
+Santa29b 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+Temecula1 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+Temecula1Star 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+TemeculaL 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+UVA519_1B 98.462 99.133 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+VALVAL072Ext X 99.133 99.524 100 99.162 99.545 98.649 99.432 99.686 100 99.153
+WM1-1 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+XF3348 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+XF3967_18 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+XYL1752_17 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 X 100 99.153
+XYL1961 X 98.44 99.524 98.955 98.603 95 96.396 99.432 97.959 100 99.153
+XYL1966_18 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 X 100 99.153
+XYL1968_18 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+XYL1981_17 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+XYL1981_18 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 X 100 99.153
+XYL2014_18 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+XYL2017_18 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+XYL2055_17 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+XYL2093_18 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+XYL2153_18 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+XYL461 100 100 99.762 100 99.721 100 100 100 100 100 99.153
+XYL466_19 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153
+XYL468 98.462 99.307 99.524 100 99.162 99.545 98.649 98.864 99.215 100 99.153

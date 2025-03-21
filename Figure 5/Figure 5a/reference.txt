@@ -1,0 +1,3 @@
+./Ref/Temecula1.fna	./Ref/Temecula1.gff	ref
+./Ref/9a5c.fna	./Ref/9a5c.gff	draft
+./Ref/AlmaEM3.fna	./Ref/AlmaEM3.gff	draft

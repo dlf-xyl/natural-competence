@@ -1,0 +1,254 @@
+DATASET_COLORSTRIP
+#In colored strip datasets, each ID is associated to a color box/strip and can have an optional label. Color can be specified in hexadecimal, RGB or RGBA notation. When using RGB or RGBA notation, you cannot use COMMA as the dataset separator
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+
+#SEPARATOR TAB
+#SEPARATOR COMMA
+SEPARATOR SPACE
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL Location_isolated 
+
+#dataset color (can be changed later)
+COLOR #ff0000
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#If COLOR_BRANCHES is set to 1, branches of the tree will be colored according to the colors of the strips above the leaves.
+#When all children of a node have the same color, it will be colored the same, ie. the color will propagate inwards towards the root.
+#COLOR_BRANCHES 0
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#Each dataset can have a legend, which is defined using LEGEND_XXX fields below
+#For each row in the legend, there should be one shape, color and label.
+#Optionally, you can define an exact legend position using LEGEND_POSITION_X and LEGEND_POSITION_Y. To use automatic legend positioning, do NOT define these values
+#Optionally, shape scaling can be present (LEGEND_SHAPE_SCALES). For each shape, you can define a scaling factor between 0 and 1.
+#To order legend entries horizontally instead of vertically, set LEGEND_HORIZONTAL to 1
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+LEGEND_TITLE Location_isolated
+LEGEND_POSITION_X 100
+LEGEND_POSITION_Y 100
+LEGEND_HORIZONTAL 1
+LEGEND_SHAPES 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+LEGEND_COLORS #FFC20A #DDCC77 #AA4499 #882255 #CC6677 #DC3220 #D55E00 #88CCEE #332288 #648FFF #44AA99 #117733 #1AFF1A #000000 
+LEGEND_LABELS WA CA NC GA FL TX LA Mexico Costa_Rica Ecuador Italy France Spain Israel 
+#LEGEND_SHAPE_SCALES 1 1 0.5 1
+
+#width of the colored strip
+STRIP_WIDTH 25
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN 15
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around the color strip 
+BORDER_WIDTH 3
+
+#border color; used when BORDER_WIDTH is above 0
+BORDER_COLOR #000000
+
+#if set to 1, border will be drawn completely around each colored strip box
+COMPLETE_BORDER 1
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+SHOW_INTERNAL 0
+
+
+#display or hide the individual label inside each colored strip (when defined in the data below)
+SHOW_STRIP_LABELS 0
+
+#position of the strip label within the box; 'top', 'center' or 'bottom'
+#STRIP_LABEL_POSITION center
+
+#strip label size factor (relative to the tree leaf labels)
+#STRIP_LABEL_SIZE_FACTOR 1
+
+
+#rotation of the strip labels; used only in rectangular tree display mode
+#STRIP_LABEL_ROTATION 0
+
+#strip label shift in pixels (positive or negative)
+#STRIP_LABEL_SHIFT 0
+
+#STRIP_LABEL_COLOR #000000
+
+#draw a black outline around the text (width in pixels)
+#STRIP_LABEL_OUTLINE 0.5
+
+#display or hide the dataset label above the colored strip
+#SHOW_LABELS 1
+
+#dataset label size factor
+#SIZE_FACTOR 1
+
+#dataset label rotation
+#LABEL_ROTATION 0
+
+#dataset label shift in pixels (positive or negative)
+#LABEL_SHIFT 0
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+
+#Examples:
+#assign a red colored strip to leaf 9606, with label 'Human'
+#9606 #ff0000 Human
+
+#assign a green, semi-transparent (alpha 0.5) strip to an internal node, without any label. If 'Show internal values' is set to 'No', this will only be displayed if the node is collapsed. 
+#9606|5664 rgba(0,255,0,0.5)
+14B1 #882255
+14B2 #882255
+14B3 #882255
+14B5 #882255
+14B7 #882255
+15B2 #882255
+15B3 #882255
+15M1 #882255
+16B1 #882255
+16B2 #882255
+16B3 #882255
+16B4 #882255
+16B5 #882255
+16M2 #882255
+16M3 #882255
+16M5 #882255
+16M6 #882255
+16M7 #882255
+16M8 #882255
+3SVG #882255
+4rd+1 #882255
+Alma311 #882255
+AlmaEM3 #882255
+AlmaReb2 #882255
+Alpha3 #882255
+ALS10T14 #DDCC77
+ALS10T3 #DDCC77
+ALS12T1 #DDCC77
+ALS14T3 #DDCC77
+ALS14T5 #DDCC77
+ALS17T10 #DDCC77
+ALS17T9 #DDCC77
+ALS6 #DDCC77
+Ann-1 #DDCC77
+B3_SN17-2_IS #000000
+BB08-1 #CC6677
+BBI10 #882255
+BBI64 #882255
+BBI80 #882255
+BH-elm #882255
+CCPM1 #882255
+CFBP7969 #AA4499
+CFBP7970 #CC6677
+CFBP8068 #FFC20A
+CFBP8072 #648FFF
+CFBP8073 #88CCEE
+CFBP8074 #648FFF
+CFBP8075 #DDCC77
+CFBP8082 #CC6677
+CFBP8083 #AA4499
+CFBP8084 #882255
+CFBP8351 #DDCC77
+CFBP8356 #332288
+CFBP8416 #117733
+CFBP8417 #117733
+CFBP8418 #117733
+CFBP8478 #332288
+CO33 #332288
+Conn-creek #DDCC77
+De_Donno #44AA99
+Dixon #DDCC77
+EB92-1 #CC6677
+ESVL #1AFF1A
+Fillmore #DDCC77
+GAplum #882255
+GILGRA274ext #DC3220
+IAS-AXF212H7 #1AFF1A
+IAS-AXF64H11 #1AFF1A
+IVIA5235 #1AFF1A
+IVIA5770 #1AFF1A
+IVIA5901 #1AFF1A
+IVIA6902 #1AFF1A
+Je1 #DDCC77
+Je118 #DDCC77
+Je13 #DDCC77
+Je17 #DDCC77
+Je35 #DDCC77
+Je4 #DDCC77
+Je43 #DDCC77
+Je51 #DDCC77
+Je60 #DDCC77
+Je63 #DDCC77
+Je73 #DDCC77
+Je78 #DDCC77
+Je92 #DDCC77
+L95-1 #CC6677
+LA-Y3C #D55E00
+LLAFAL718A #DC3220
+LM10 #DDCC77
+M12 #DDCC77
+M23 #DDCC77
+MEDPRI047 #DC3220
+Oak92-10 #CC6677
+OC8 #DDCC77
+PD7202 #332288
+R2XF4358_18 #1AFF1A
+RBCF119 #882255
+Red_Oak_2 #882255
+RH1 #DDCC77
+Riv11 #DDCC77
+Riv13 #DDCC77
+Riv16 #DDCC77
+Riv19 #DDCC77
+Riv25 #DDCC77
+Riv5 #DDCC77
+Salento-1 #44AA99
+Santa29b #1AFF1A
+SLO #DDCC77
+SRBB #882255
+Temecula1 #DDCC77
+Temecula1Star #DDCC77
+TemeculaL #DDCC77
+UVA519_1B #DC3220
+VALVAL072Ext #DC3220
+WM1-1 #882255
+XF3348 #1AFF1A
+XF3967_18 #1AFF1A
+XYL1752_17 #1AFF1A
+XYL1961 #1AFF1A
+XYL1966_18 #1AFF1A
+XYL1968_18 #1AFF1A
+XYL1981_17 #1AFF1A
+XYL1981_18 #1AFF1A
+XYL2014_18 #1AFF1A
+XYL2017_18 #1AFF1A
+XYL2093_18 #1AFF1A
+XYL2153_18 #1AFF1A
+XYL461 #1AFF1A
+XYL466_19 #1AFF1A
+XYL468 #1AFF1A
+Je103 #DDCC77
+Fetzer #DDCC77
+XYL2055_17 #1AFF1A
