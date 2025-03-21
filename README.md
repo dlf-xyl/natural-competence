@@ -4,7 +4,7 @@ This repository provides all other data and code used in this study, including r
 ### Natural competence in the bacterial pathogen *Xylella fastidiosa* varies across genotypes and is associated with adhesins
 
 
-Ranlin Liu<sup>1</sup>, María Pilar Velasco-Amo<sup>2</sup>, Luis F. Arias-Giraldo<sup>2</sup>, Monica A. Donegan<sup>3</sup>, Neha Potnis<sup>1</sup>, Nate B. Hardy<sup>1</sup>, Rodrigo P. P. Almeida<sup>3</sup>, Blanca B. Landa<sup>2</sup>, Leonardo De La Fuente<sup>1</sup>*
+Ranlin Liu<sup>1</sup>, María Pilar Velasco-Amo<sup>2</sup>, Luis F. Arias-Giraldo<sup>2</sup>, Monica A. Donegan<sup>3</sup>, Neha Potnis<sup>1</sup>, Nate B. Hardy<sup>1</sup>, Rodrigo P. P. Almeida<sup>3</sup>, Blanca B. Landa<sup>2</sup>, Leonardo De La Fuente<sup>1</sup>
 
 <sup>1</sup> Department of Entomology and Plant Pathology, Auburn University, Auburn, Alabama 36830, USA
 <sup>2</sup> Institute for Sustainable Agriculture, Consejo Superior de Investigaciones Científicas (CSIC), 14004 Córdoba, Spain
