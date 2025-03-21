@@ -1,0 +1,293 @@
+DATASET_HEATMAP
+#In heatmaps, each ID is associated to multiple numeric values, which are displayed as a set of colored boxes defined by a color gradient
+#lines starting with a hash are comments and ignored during parsing
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
+#SEPARATOR TAB
+SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL Contig
+
+#dataset color (can be changed later)
+COLOR #ff0000
+
+#define labels for each individual field column
+FIELD_LABELS Contig
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+
+#Heatmaps can have an optional Newick formatted tree assigned. Its leaf IDs must exactly match the dataset FIELD_LABELS.
+#The tree will be used to sort the dataset fields, and will be displayed above the dataset. It can have branch lengths defined.
+#All newlines and spaces should be stripped from the tree, and COMMA cannot be used as the dataset separator if a FIELD_TREE is provided.
+#FIELD_TREE (((f1:0.2,f5:0.5):1,(f2:0.2,f3:0.3):1.2):0.5,(f4:0.1,f6:0.5):0.8):1;
+
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#Each dataset can have a legend, which is defined using LEGEND_XXX fields below
+#For each row in the legend, there should be one shape, color and label.
+#Optionally, you can define an exact legend position using LEGEND_POSITION_X and LEGEND_POSITION_Y. To use automatic legend positioning, do NOT define these values
+#Optionally, shape scaling can be present (LEGEND_SHAPE_SCALES). For each shape, you can define a scaling factor between 0 and 1.
+#To order legend entries horizontally instead of vertically, set LEGEND_HORIZONTAL to 1
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#LEGEND_TITLE,Dataset legend
+#LEGEND_SCALE,1
+#LEGEND_POSITION_X,100
+#LEGEND_POSITION_Y,100
+LEGEND_HORIZONTAL 1
+#LEGEND_SHAPES,1,2,3
+#LEGEND_COLORS,#ff0000,#00ff00,#0000ff
+#LEGEND_LABELS,value1,value2,value3
+#LEGEND_SHAPE_SCALES,1,1,0.5
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN 0
+
+#width of the individual boxes
+#STRIP_WIDTH 25
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL 0
+
+
+#show dashed lines between leaf labels and the dataset
+#DASHED_LINES 1
+
+#if a FIELD_TREE is present, it can be hidden by setting this option to 0
+#SHOW_TREE 1
+
+#define the color for the NULL values in the dataset. Use the letter X in the data to define the NULL values
+#COLOR_NAN #000000
+
+#automatically create and display a legend based on the color gradients and values defined below
+#AUTO_LEGEND 1
+
+#define the heatmap gradient colors. Values in the dataset will be mapped onto the corresponding color gradient.
+COLOR_MIN #0d0887
+COLOR_MAX #f0f921
+
+#you can specify a gradient with three colors (e.g red to yellow to green) by setting 'USE_MID_COLOR' to 1, and specifying the midpoint color
+#USE_MID_COLOR 1
+#COLOR_MID #ffff00
+
+#By default, color gradients will be calculated based on dataset values. You can force different values to use in the calculation by setting the values below:
+#USER_MIN_VALUE 0
+#USER_MID_VALUE 500
+#USER_MAX_VALUE 1000
+
+#border width; if set above 0, a border of specified width (in pixels) will be drawn around individual cells
+#BORDER_WIDTH 0
+
+#border color; used only when BORDER_WIDTH is above 0
+#BORDER_COLOR #0000ff
+
+#display or hide the text labels above each field column
+#SHOW_LABELS 1
+
+#text label size factor
+#SIZE_FACTOR 1
+
+#text label rotation
+#LABEL_ROTATION 0
+
+#text label shift in pixels (positive or negative)
+#LABEL_SHIFT 0
+
+#normalize the data using the function specified in NORMALIZATION_TYPE. DATA_NORMALIZATION can be set to
+#'rows' (normalize data for each tree leaf) or 'columns' (normalize data for each heatmap field)
+#DATA_NORMALIZATION rows
+
+#type of normalization to apply. The following types are available:
+#normal: values will be normalized between values A and B (specified in NORMALIZATION_RANGE) using the formula A+(val-min)*(B-A)/(max-min)
+#mean: values will be normalized between -1 and 1 using the formula (val-mean)/(max-min)
+#scaling: values will be Z-score normalized using the formula (val-mean)/std.dev
+#NORMALIZATION_TYPE scaling
+
+#used to define the A-B range for standard normalization
+#NORMALIZATION_RANGE 0 3
+
+#Display the actual values inside the heatmap boxes. Can be either 'original' or 'normalized'. If the data is not normalized, original values will be used in any case.
+#DISPLAY_VALUES normalized
+
+#round the display values to this number of decimal points
+#ROUND_VALUES 2
+
+#if set to 1, display values using scientific notation (e.g. 1e3 is 1000). Can be combined with ROUND_VALUES
+#VALUES_SCI_NOTATION 1
+
+#color of the value labels
+#VALUE_COLOR #0000ff
+
+#if set to 1, calculate the value label color automatically, based on the darkness of the heatmap box. Labels will be white or black.
+#VALUE_AUTO_COLOR 1
+
+#shift the position of the value labels by the specified number of pixels (X and Y)
+#VALUE_SHIFT 0 0
+
+#rotate the value labels by this angle
+#VALUE_ROTATION 0
+
+#multiply the value label font size by this factor
+#VALUE_SIZE_FACTOR 1
+
+
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#ID1 value1 value2 value3 value4 value5 value6
+#You can use the 'X' letter instead of the numeric value to denote the empty fields. These will be colored using 'COLOR_NAN' option set above.
+#9606 100 300 250 100 50 210
+#15303 20 X 130 200 300 15
+14B1 154
+14B2 162
+14B3 161
+14B5 164
+14B7 167
+15B2 158
+15B3 164
+15M1 158
+16B1 156
+16B2 205
+16B3 159
+16B4 162
+16B5 160
+16M2 147
+16M3 149
+16M5 159
+16M6 159
+16M7 157
+16M8 159
+3SVG 191
+4rd+1 31
+ALS10T14 666
+ALS10T3 389
+ALS12T1 1496
+ALS14T3 423
+ALS14T5 416
+ALS17T10 464
+ALS17T9 1538
+ALS6 149
+Alma311 225
+AlmaEM3 1
+AlmaReb2 1
+Alpha3 184
+Ann-1 2
+B3_SN17-2_IS 1342
+BB08-1 1
+BBI10 238
+BBI64 104
+BBI80 184
+BH-elm 135
+CCPM1 88
+CFBP7969 1
+CFBP7970 2
+CFBP8068 1
+CFBP8072 278
+CFBP8073 4
+CFBP8074 2
+CFBP8075 1
+CFBP8082 2
+CFBP8083 1
+CFBP8084 16
+CFBP8351 2
+CFBP8356 196
+CFBP8416 1
+CFBP8417 1
+CFBP8418 1
+CFBP8478 2
+CO33 2
+Conn-creek 374
+De_Donno 2
+Dixon 9
+EB92-1 168
+ESVL 133
+Fetzer 466
+Fillmore 1
+GAplum 37
+GILGRA274ext 47
+IAS-AXF212H7 336
+IAS-AXF64H11 1
+IVIA5235 2
+IVIA5770 2
+IVIA5901 1
+IVIA6902 1584
+Je1 393
+Je103 187
+Je118 799
+Je13 386
+Je17 429
+Je35 449
+Je4 384
+Je43 474
+Je51 873
+Je60 353
+Je63 367
+Je73 946
+Je78 362
+Je92 366
+L95-1 47
+LA-Y3C 1
+LLAFAL718A 31
+LM10 1
+M12 1
+M23 2
+MEDPRI047 269
+OC8 2
+Oak92-10 114
+PD7202 3
+R2XF4358_18 2
+RBCF119 35
+RH1 1
+Red_Oak_2 1
+Riv11 2
+Riv13 4
+Riv16 3
+Riv19 2
+Riv25 2
+Riv5 2
+SLO 270
+SRBB 238
+Salento-1 2
+Santa29b 1
+Temecula1 2
+Temecula1Star 113
+TemeculaL 162
+UVA519_1B 294
+VALVAL072Ext 75
+WM1-1 1
+XF3348 1
+XF3967_18 113
+XYL1752_17 1
+XYL1961 1
+XYL1966_18 1
+XYL1968_18 117
+XYL1981_17 353
+XYL1981_18 121
+XYL2014_18 2
+XYL2017_18 2
+XYL2055_17 135
+XYL2093_18 2
+XYL2153_18 2
+XYL461 2
+XYL466_19 1
+XYL468 1

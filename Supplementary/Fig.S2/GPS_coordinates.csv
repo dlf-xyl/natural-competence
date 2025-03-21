@@ -1,0 +1,156 @@
+"Strain","Mean","Subspecies","Host.CN.","Host.SN.","location","Geographical.Origin","Assemblies.availability","Latitude","Longitude","Host_genus","competent","rr"
+"CFBP8356",0,"sandyi","Coffee","Coffea arabica","Costa Rica","Costa Rica","Y",9.748917,-83.753428,"Coffea","Non-competent",0
+"CFBP8419",0,"sandyi","Coffee","Coffea arabica","Plant intercepted in France from Costa Rica","Costa Rica","N",9.748917,-83.753428,"Coffea","Non-competent",0
+"CFBP8478",0,"sandyi","Coffee","Coffea arabica","Plant intercepted in France from Costa Rica","Costa Rica","Y",9.748917,-83.753428,"Coffea","Non-competent",0
+"CO33",0,"sandyi","Coffee","Coffea arabica","Plant intercepted in Italy from Costa Rica","Costa Rica","Y",9.748917,-83.753428,"Coffea","Non-competent",0
+"PD7202",0,"pauca","Olive","Olea europaea","Plant intercepted in Italy from Costa Rica","Costa Rica","Y",9.748917,-83.753428,"Olea","Non-competent",0
+"CFBP8072",0,"pauca","Coffee","Coffea arabica","Ecuador","Ecuador","Y",-1.831239,-78.183406,"Coffea","Non-competent",0
+"CFBP8074",0,"pauca","Coffee","Coffea arabica","Ecuador","Ecuador","Y",-1.831239,-78.183406,"Coffea","Non-competent",0
+"CFBP8417",0,"multiplex","Spanish_broom","Spartium junceum","France","France, Corsica, Corse-du-Sud, Alata","Y",41.975932,8.742111,"Others","Non-competent",0
+"CFBP8418",0,"multiplex","Spanish_broom","Spartium junceum","France","France, Corsica, Corse-du-Sud, Alata","Y",41.975932,8.742111,"Others","Non-competent",0
+"CFBP8416",0,"multiplex","Myrtle-leaf_milkwort","Polygala myrtifolia","France","France, Corsica, Corse-du-Sud, Propriano","Y",41.6738915,8.9017592,"Others","Non-competent",0
+"B3_SN17-2_IS",0.00357776497695853,"fastidiosa","Almonds","Prunus dulcis","Israel","Israel","Y",33.1944444,35.6296388888888,"Prunus","Competent",0.00357138000060802
+"De_Donno",0,"pauca","Olive","Olea europaea","Italy","Italy, Apulia, Lecce, Galipolli - Li Sauli","Y",40.024902,18.050242,"Olea","Non-competent",0
+"Salento-1",0,"pauca","Olive","Olea europaea","Italy","Italy, Apulia, Lecce, Taviano","Y",39.98224,18.08151,"Olea","Non-competent",0
+"CFBP8073",0,"fastidiosa","Coffee","Coffea canephora","Mexico","Mexico","Y",23.634501,-102.552784,"Coffea","Non-competent",0
+"IVIA5901",0,"multiplex","Almonds","Prunus dulcis","Spain","Spain, Alicante, Benimantell","Y",38.67457,-0.20711,"Prunus","Non-competent",0
+"IAS-AXF212H7",0,"multiplex","Almonds","Prunus dulcis","Spain","Spain, Alicante, Benimantell","Y",38.67457,-0.20711,"Prunus","Non-competent",0
+"IAS-AXF64H11",0,"multiplex","Almonds","Prunus dulcis","Spain","Spain, Alicante, Benimantell","Y",38.67457,-0.20711,"Prunus","Non-competent",0
+"ESVL",0,"multiplex","Almonds","Prunus dulcis","Spain","Spain, Alicante, Bolulla","Y",38.67622,-0.11179,"Prunus","Non-competent",0
+"IVIA6902",0,"multiplex","Almonds","Prunus dulcis","Spain","Spain, Alicante, Castell de Castells","Y",38.7255294,-0.194579,"Prunus","Non-competent",0
+"IAS-AXF235T1",0,"multiplex","Almonds","Prunus dulcis","Spain","Spain, Alicante, El Castell de Guadalest","N",38.6769639,-0.1983236,"Prunus","Non-competent",0
+"XYL1961",0,"pauca","Olive","Olea europaea","Spain","Spain, Ibiza","Y",39.0200099,1.4821482,"Olea","Non-competent",0
+"XYL1981_17",0,"multiplex","Fig","Ficus carica","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Others","Non-competent",0
+"IVIA5235",0,"fastidiosa","Sweet Cherry","Prunus avium","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Prunus","Non-competent",0
+"XYL2014_18",0.000107744290818704,"fastidiosa","Almonds","Prunus dulcis","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Prunus","Competent",0.000107738486819405
+"XYL2017_18",0.000131100241545894,"fastidiosa","Almonds","Prunus dulcis","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Prunus","Competent",0.000131091648660179
+"XYL2093_18",5.5952380952381e-06,"fastidiosa","Almonds","Prunus dulcis","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Prunus","Competent",5.59522244200433e-06
+"XYL461",3.7431693989071e-06,"fastidiosa","Italian_buckthorn","Rhamnus alaternus","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Others","Competent",3.74316239324321e-06
+"R2XF4358_18",9.19466172030136e-05,"fastidiosa","Italian_buckthorn","Rhamnus alaternus","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Others","Competent",9.1942390371795e-05
+"IVIA5770",4.36087867126643e-07,"fastidiosa","Grapes","Vitis vinifera","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Vitis","Competent",4.36087772064261e-07
+"XF3967_18",4.69875541125541e-06,"fastidiosa","Grapes","Vitis vinifera","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Vitis","Competent",4.69874437208661e-06
+"XYL2055_17",7.58293838862559e-06,"fastidiosa","Grapes","Vitis vinifera","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Vitis","Competent",7.58290963820756e-06
+"XYL2153_18",6.08365019011407e-06,"fastidiosa","Grapes","Vitis vinifera","Spain","Spain, Mallorca","Y",39.6952629,3.0175712,"Vitis","Competent",6.08363168473376e-06
+"XF3348",0,"multiplex","Almonds","Prunus dulcis","Spain","Spain, Mallorca, Binissalem","Y",39.68744,2.84396,"Prunus","Non-competent",0
+"XYL468",0,"multiplex","Olive","Olea europaea","Spain","Spain, Mallorca, Manacor","Y",39.5697,3.2095,"Olea","Non-competent",0
+"XYL466_19",0,"multiplex","Olive","Olea europaea","Spain","Spain, Mallorca, Sant Llorenç","Y",39.6113,3.2854,"Olea","Non-competent",0
+"XYL1968_18",0,"multiplex","Olive","Olea europaea","Spain","Spain, Menorca","Y",39.9496287,4.1104449,"Olea","Non-competent",0
+"XYL1981_18",0,"multiplex","Almonds","Prunus dulcis","Spain","Spain, Menorca","Y",39.9496287,4.1104449,"Prunus","Non-competent",0
+"Santa29b",0,"multiplex","Lavender_cotton","Santolina chamaecyparissus","Spain","Spain, Menorca","Y",39.8291,4.2952,"Others","Non-competent",0
+"XYL1966_18",0,"multiplex","Olive","Olea europaea","Spain","Spain, Menorca, Ciudatella","Y",39.9991,3.8389,"Olea","Non-competent",0
+"XYL1752_17",0,"multiplex","Almonds","Prunus dulcis","Spain","Spain, Menorca, Ciudatella","Y",39.9991,3.8389,"Prunus","Non-competent",0
+"BH-Elm",0.0001225,"multiplex","Elm","Ulmus americana","GA","USA, Alabama, Jefferson, Birmingham","Y",33.5185892,-86.8103567,"Others","Competent",0.000122492497487724
+"RBCF119",0,"multiplex","Pecan","Carya illinoinensis","GA","USA, Alabama, Lowndes, Lowndesboro","Y",32.2751399,-86.6113658,"Others","Non-competent",0
+"OC8",0,"sandyi","Olive","Olea spp.","CA","USA, California","Y",36.778261,-119.4179324,"Olea","Non-competent",0
+"CFBP8075",0,"multiplex","Prunus sp","Prunus sp","CA","USA, California","Y",36.778261,-119.4179324,"Prunus","Non-competent",0
+"CFBP8351",1.73233220962305e-05,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California","Y",36.778261,-119.4179324,"Vitis","Competent",1.73231720491297e-05
+"Chard1",0.0005094,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California","N",36.778261,-119.4179324,"Vitis","Competent",0.000509270299864401
+"Je73",0.00195147324585527,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Bakersfield, Buena Vista boulevard","Y",35.2387,-118.7615,"Vitis","Competent",0.00194957159555178
+"Je78",0.0437917844750143,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Bakersfield, General Beale road","Y",35.2176,-118.7607,"Vitis","Competent",0.0428600294115815
+"Je63",0.0845777722853847,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Bakersfield, General Beale road","Y",35.2494,-118.7528,"Vitis","Competent",0.0811907612865372
+"Je60",0.00158860488429975,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Bakersfiled, Tower Line road","Y",35.3357,-118.8068,"Vitis","Competent",0.00158734438633937
+"ALS14T3",0,"multiplex","Almonds","Prunus dulcis","CA","USA, California, Claribel","Y",37.8275217,-120.977133333333,"Prunus","Non-competent",0
+"ALS14T5",0.00483686483840813,"fastidiosa","Almonds","Prunus dulcis","CA","USA, California, Claribel","Y",37.8275217,-120.977133333333,"Prunus","Competent",0.00482520479127419
+"ALS10T14",0.0051873845145643,"fastidiosa","Almonds","Prunus dulcis","CA","USA, California, Colusa","Y",39.25,-122.23,"Prunus","Competent",0.00517397638427578
+"ALS10T3",0,"multiplex","Almonds","Prunus dulcis","CA","USA, California, Colusa","Y",39.25,-122.23,"Prunus","Non-competent",0
+"ALS12T1",0.0132454075378002,"multiplex","Almonds","Prunus dulcis","CA","USA, California, Colusa","Y",39.25,-122.23,"Prunus","Competent",0.0131584541082129
+"M12",0,"multiplex","Almonds","Prunus dulcis","CA","USA, California, Kern, San Joaquin Valley ","Y",37.9832553,-121.8677352,"Prunus","Non-competent",0
+"M23",0.0011604103174119,"fastidiosa","Almonds","Prunus dulcis","CA","USA, California, Kern, San Joaquin Valley ","Y",37.9832553,-121.8677352,"Prunus","Competent",0.0011597375617576
+"King3",0.0102613155323999,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Kingsburg, Fresno","N",36.5138398,-119.5540175,"Vitis","Competent",0.0102090256386873
+"LM10",0,"multiplex","Olive","Olea europaea","CA","USA, California, Los Angeles","Y",34.0522342,-118.2436849,"Olea","Non-competent",0
+"Fetzer",0.0001193,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Napa Valley","Y",38.2975381,-122.286865,"Vitis","Competent",0.000119292884320861
+"Conn-creek",8.24e-05,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Napa Valley","Y",38.2975381,-122.286865,"Vitis","Competent",8.23966053064075e-05
+"Je35",0.0256881636847435,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Napa valley, Conn Creek road","Y",38.4658,-122.3969,"Vitis","Competent",0.025363766520805
+"Je43",0.0280123494905835,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Napa valley, Rutherford","Y",38.4575,-122.4219,"Vitis","Competent",0.0276271800839521
+"Je51",0.0515391705069124,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Napa valley, Veteran peak (nearby)","Y",38.4061,-122.3414,"Vitis","Competent",0.0502549674942742
+"Ann-1",0,"sandyi","Oleander","Nerium oleander","CA","USA, California, Palm Springs","Y",33.8302961,-116.5452921,"Nerium","Non-competent",0
+"Riv13",3.3460947654496e-07,"fastidiosa","Redbud","Cercis occidentalis","CA","USA, California, Riverside","Y",33.9806005,-117.3754942,"Others","Competent",3.34609420589308e-07
+"Riv11",0,"morus","Mulberry","Morus alba","CA","USA, California, Riverside","Y",33.9806005,-117.3754942,"Morus","Non-competent",0
+"Riv16",0,"morus","Mulberry","Morus alba","CA","USA, California, Riverside","Y",33.9806005,-117.3754942,"Morus","Non-competent",0
+"Riv19",3.17460317460317e-08,"morus","Mulberry","Morus alba","CA","USA, California, Riverside","Y",33.9806005,-117.3754942,"Morus","Competent",3.17460312994317e-08
+"Riv25",0,"morus","Mulberry","Morus alba","CA","USA, California, Riverside","Y",33.9806005,-117.3754942,"Morus","Non-competent",0
+"Riv5",0,"multiplex","Plum","Prunus cerasifera","CA","USA, California, Riverside","Y",33.9806005,-117.3754942,"Prunus","Non-competent",0
+"RH1",0,"multiplex","Olive","Olea europaea","CA","USA, California, San Diego","Y",32.715738,-117.1610838,"Olea","Non-competent",0
+"ALS6",0.00185556312052297,"multiplex","Almonds","Prunus dulcis","CA","USA, California, San Joaquin","Y",37.9175935,-121.1710389,"Prunus","Competent",0.00185384368995531
+"ALS17T10",0.00472253295222443,"fastidiosa","Almonds","Prunus dulcis","CA","USA, California, San Joaquin","Y",37.93729,-121.277372,"Prunus","Competent",0.0047114167774114
+"ALS17T9",0.0314576622752687,"fastidiosa","Almonds","Prunus dulcis","CA","USA, California, San Joaquin","Y",37.93729,-121.277372,"Prunus","Competent",0.03097300787369
+"SLO",0.118795196078431,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, San Luis Ovispo","Y",35.2828,-120.6596,"Vitis","Competent",0.112252388520245
+"Je4",0.00117902049918518,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Santa Barbara, Cebada Canyon road","Y",34.6649,-120.3531,"Vitis","Competent",0.00117832600034851
+"Je1",0.0309299568965517,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Santa Barbara, Lompoc","Y",34.655,-120.336,"Vitis","Competent",0.0304612656722457
+"Dixon",0,"multiplex","Almonds","Prunus dulcis","CA","USA, California, Solano","Y",36.778261,-119.4179324,"Prunus","Non-competent",0
+"Je13",0.00663679245283019,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Sonoma, Bradford Mountain","Y",38.6853,-122.9517,"Vitis","Competent",0.00661486590695554
+"Je17",0.148478393183201,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Sonoma, Bradford Mountain","Y",38.6853,-122.9517,"Vitis","Competent",0.138437929894908
+"Je92",0.0388992925509779,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Sonoma, Porter Creek","Y",38.5178,-122.8912,"Vitis","Competent",0.0381617801344269
+"Temecula1",0.0004758,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Temecula","Y",33.487007,-117.143784,"Vitis","Competent",0.000475686843071981
+"Temecula1Star",0.0002154,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Temecula","Y",33.487007,-117.143784,"Vitis","Competent",0.000215376804750866
+"TemeculaL",0.00765863069821923,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Temecula","Y",33.487007,-117.143784,"Vitis","Competent",0.00762945226931344
+"Je118",0.00113966817496229,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Temecula, Avenida Arriba","Y",33.5587,-117.0114,"Vitis","Competent",0.00113901924618326
+"Je103",0.00228950428396573,"fastidiosa","Grapes","Vitis vinifera","CA","USA, California, Temecula, Vista de Oro road","Y",33.5381,-117.0879,"Vitis","Competent",0.00228688736257321
+"Fillmore",0,"multiplex","Olive","Olea europaea","CA","USA, California, Ventura","Y",34.2804923,-119.2945199,"Olea","Non-competent",0
+"CFBP8082",0,"fastidiosa","Annual_ragweed","Ambrosia artemifolia","FL","USA, Florida","Y",27.6648274,-81.5157535,"Others","Non-competent",0
+"CFBP7970",0,"fastidiosa","Grapes","Vitis vinifera","FL","USA, Florida","Y",27.6648274,-81.5157535,"Vitis","Non-competent",0
+"Oak92-10",0,"multiplex","Oak","Quercus nigra","FL","USA, Florida, Lake","Y",28.702847,-81.7787021,"Quercus","Non-competent",0
+"EB92-3",0.000141371435877765,"fastidiosa","Elderberry","Sambucus spp.","FL","USA, Florida, Lake","N",28.702847,-81.7787021,"Others","Competent",0.00014136144387805
+"EB92-1",7.32e-05,"fastidiosa","Elderberry","Sambucus spp.","FL","USA, Florida, Lake, Leesburg","Y",28.810823,-81.8778582,"Others","Competent",7.31973210108404e-05
+"PD92-8",5.81281509188486e-07,"fastidiosa","Grapes","Vitis vinifera","FL","USA, Florida, Lake, Leesburg","N",28.810823,-81.8778582,"Vitis","Competent",5.81281340204792e-07
+"L95-2",0,"multiplex","Lupinus","Lupinus villosus","FL","USA, Florida, Levy","N",29.3178545,-82.820974,"Others","Non-competent",0
+"L95-1",0.0520083333333333,"multiplex","Lupinus","Lupinus aridonum","FL","USA, Florida, Orange","Y",28.4844995,-81.2518833,"Others","Competent",0.0507010357036623
+"PD95-1",0.00611479919678715,"fastidiosa","Grapes","Vitis vinifera","FL","USA, Florida, Osceola, St. Cloud","N",28.2489016,-81.2811801,"Vitis","Competent",0.00609617967671087
+"BB08-1",3.627e-05,"multiplex","Blueberry","Vaccinium spp.","FL","USA, Florida, Palatka, Putnam","Y",29.6590351,-81.6492489,"Vaccinium","Competent",3.62693422595145e-05
+"BB08-3",0.00144513489606369,"multiplex","Blueberry","Vaccinium spp.","FL","USA, Florida, Palatka, Putnam","N",29.6590351,-81.6492489,"Vaccinium","Competent",0.00144409169355451
+"CFBP8084",0,"morus","Mulberry","Morus alba","GA","USA, Georgia","Y",32.1656221,-82.9000751,"Morus","Non-competent",0
+"GAplum",0,"multiplex","Plum","Prunus sp.","GA","USA, Georgia","Y",32.1656221,-82.9000751,"Prunus","Non-competent",0
+"Red_Oak_2",0,"multiplex","Oak","Quercus rubra","GA","USA, Georgia","Y",32.1656221,-82.9000751,"Quercus","Non-competent",0
+"CC_Cab_1",0.00934885624161923,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia","N",32.1656221,-82.9000751,"Vitis","Competent",0.00930542615635381
+"Alma311",0,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Alma, Bacon","Y",31.5393701,-82.4623557,"Vaccinium","Non-competent",0
+"AlmaEM3",7.02777877611654e-05,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Alma, Bacon","Y",31.5393701,-82.4623557,"Vaccinium","Competent",7.02753183932201e-05
+"BBI10",0,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Alma, Bacon","Y",31.5393701,-82.4623557,"Vaccinium","Non-competent",0
+"BBI12",0,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Alma, Bacon","N",31.5393701,-82.4623557,"Vaccinium","Non-competent",0
+"4rd+1",0,"multiplex","Sycamore","Platanus occidentalis","GA","USA, Georgia, Athens-Clarke","Y",33.9519347,-83.357567,"Platanus","Non-competent",0
+"AlmaReb1",0.00355808447197655,"fastidiosa","Blueberry","Vaccinium spp.","GA","USA, Georgia, Bacon, Blake Williams Farm","N",32.1656221,-82.9000751,"Vaccinium","Competent",0.00355176946454174
+"AlmaReb2",0.00723272466881489,"fastidiosa","Blueberry","Vaccinium spp.","GA","USA, Georgia, Bacon, Blake Williams Farm","Y",32.1656221,-82.9000751,"Vaccinium","Competent",0.00720669395570697
+"AlmaReb3",0,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Bacon, Blake Williams Farm","N",32.1656221,-82.9000751,"Vaccinium","Non-competent",0
+"AlmaStar1",3.36734693877551e-06,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Bacon, Blake Williams Farm","N",32.1656221,-82.9000751,"Vaccinium","Competent",3.36734126934291e-06
+"AlmaStar2",4.21213480160114e-07,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Bacon, Blake Williams Farm","N",32.1656221,-82.9000751,"Vaccinium","Competent",4.21213391384789e-07
+"AlmaStar3",1.63659016393443e-05,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Bacon, Blake Williams Farm","N",32.1656221,-82.9000751,"Vaccinium","Competent",1.63657677195409e-05
+"BBI64",0,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Brantley, Hoboken","Y",31.1810559,-82.1348416,"Vaccinium","Non-competent",0
+"BBI80",0,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Brantley, Hoboken","Y",31.1810559,-82.1348416,"Vaccinium","Non-competent",0
+"BBI83",0,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, Brantley, Hoboken","N",31.1810559,-82.1348416,"Vaccinium","Non-competent",0
+"CCPM1",0.0324576713657045,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Lumpking, Dahlonega","Y",34.5261465,-83.9843953,"Vitis","Competent",0.0319420487567051
+"F2-3",0.0166815451246709,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Lumpking, Dahlonega","N",34.5261465,-83.9843953,"Vitis","Competent",0.0165439363929832
+"TsMer1",0.0211860395230251,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Lumpking, Dahlonega","N",34.5261465,-83.9843953,"Vitis","Competent",0.0209647356327435
+"TsVid1",0.0118316154829329,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Lumpking, Dahlonega","N",34.5261465,-83.9843953,"Vitis","Competent",0.0117621691585633
+"WM1-1",0.024,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Lumpking, Dahlonega","Y",34.5261465,-83.9843953,"Vitis","Competent",0.0237165266173161
+"3SVG",0,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, North Georgia","Y",34.6255842,-83.7933335,"Vitis","Non-competent",0
+"Alpha3",0,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, North Georgia","Y",34.6255842,-83.7933335,"Vitis","Non-competent",0
+"PierceMed1",0.00751009899105273,"fastidiosa","Blueberry","Vaccinium spp.","GA","USA, Georgia, Pierce, Stevie Yong Farm","N",32.1656221,-82.9000751,"Vaccinium","Competent",0.00748203860092229
+"14B1",0.00518390804597701,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.00517051785042177
+"14B2",0.0125718823295567,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.0124935123719283
+"14B3",0.0147888268994053,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.0146805385320085
+"14B5",0.00777977667493797,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.00774967025902869
+"14B7",0.000598171717171717,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.00059799288378191
+"15B2",0.0259878495095886,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.0256559040952069
+"15B3",0.0141894486341545,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.0140897206904242
+"16B1",0.0047090449082859,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.00469799204169265
+"16B2",0.00310123175182482,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.00309643285174325
+"16B3",0.000139498849233363,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.000139489120173682
+"16B4",0.0212985065928462,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.0210748633398525
+"16B5",0.000936410018552876,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 1","Y",34.797,-84.012,"Vitis","Competent",0.000935971860200759
+"15M1",0.00998074145944612,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 2","Y",34.57,-84.064,"Vitis","Competent",0.0099312628094396
+"16M2",0.0652380660954712,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 2","Y",34.57,-84.064,"Vitis","Competent",0.0631983104207649
+"16M3",0.41489198919892,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 2","Y",34.57,-84.064,"Vitis","Competent",0.347053195460099
+"16M5",0.0188911216845515,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 2","Y",34.57,-84.064,"Vitis","Competent",0.0187149003322572
+"16M6",0.0058349846874437,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 2","Y",34.57,-84.064,"Vitis","Competent",0.00581802709716952
+"16M7",0.0676392832770989,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 2","Y",34.57,-84.064,"Vitis","Competent",0.0654499337471692
+"16M8",0.005510407239819,"fastidiosa","Grapes","Vitis vinifera","GA","USA, Georgia, Site 2","Y",34.57,-84.064,"Vitis","Competent",0.00549528049010263
+"SRBB",0,"multiplex","Blueberry","Vaccinium spp.","GA","USA, Georgia, South Georgia","Y",37.09024,-95.712891,"Vaccinium","Non-competent",0
+"LA-Y3C",0.000132083333333333,"multiplex","Blueberry","Vaccinium spp.","LA","USA, Louisiana","Y",30.8458948,-91.0203224,"Vaccinium","Competent",0.000132074611097927
+"CFBP8083",0,"fastidiosa","Grapes","Vitis vinifera","NC","USA, North Carolina","Y",35.7595731,-79.0192997,"Vitis","Non-competent",0
+"CFBP7969",0,"fastidiosa","Grapes","Vitis rotundifolia","NC","USA, North Carolina, North Carolina Horticultural crops research station Castle Hayne","Y",34.32,-77.922,"Vitis","Non-competent",0
+"MEDPRI047",0,"sandyi","Oleander","Nerium oleander","TX","USA, Texas","Y",31.9685988,-99.9018131,"Nerium","Non-competent",0
+"VALVAL072Ext",0,"multiplex","Texan_great_ragweed","Ambrosia trifida var. texana","TX","USA, Texas, Del Rio, Val Verde","Y",29.3606263,-100.9173177,"Others","Non-competent",0
+"GILGRA274Ext",0,"multiplex","Wild_sunflower","Helianthus annuus","TX","USA, Texas, Gillespie, Willow City ","Y",30.4007508,-98.7014248,"Others","Non-competent",0
+"LLAFAL718A",0,"multiplex","Narrowleaf_marshelder","Iva angustifolia","TX","USA, Texas, Llano, Tow","Y",30.8835094,-98.4725331,"Others","Non-competent",0
+"GILBEC625",0.0252352821738068,"fastidiosa","Grapes","Vitis vinifera","TX","USA, Texas, Stonewall, Gillespie","N",31.9685988,-99.9018131,"Vitis","Competent",0.0249221298334755
+"UVA519-1B",0,"multiplex","Redbud","Cercis spp.","TX","USA, Texas, Uvalde, Uvalde","Y",29.2096836,-99.7861679,"Others","Non-competent",0
+"CFBP8068",0,"multiplex","Elm","Ulmus sp","WA","USA, Washington","Y",38.9072,-77.0369,"Others","Non-competent",0

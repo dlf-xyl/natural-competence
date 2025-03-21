@@ -1,0 +1,155 @@
+﻿Strain,Subspecies,Host_cn,Host_sn,Location1,Location2,Mean,SE,Sequences
+14B1,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",5.18E-03,4.47E-03,Y
+14B2,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",1.26E-02,5.32E-03,Y
+14B3,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",2.00E-02,1.96E-02,Y
+14B5,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",7.78E-03,5.51E-03,Y
+14B7,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",5.98E-04,5.54E-04,Y
+15B2,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",3.07E-02,2.70E-04,Y
+15B3,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",1.43E-02,6.99E-03,Y
+15M1,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 2",1.33E-02,2.73E-03,Y
+16B1,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",4.71E-03,8.60E-04,Y
+16B2,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",3.10E-03,7.36E-04,Y
+16B3,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",1.39E-04,6.40E-05,Y
+16B4,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",2.44E-02,1.69E-02,Y
+16B5,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 1",9.36E-04,1.77E-04,Y
+16M2,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 2",6.52E-02,5.77E-02,Y
+16M3,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 2",4.15E-01,2.04E-01,Y
+16M5,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 2",1.89E-02,1.18E-02,Y
+16M6,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 2",5.83E-03,3.23E-03,Y
+16M7,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 2",7.40E-02,4.04E-02,Y
+16M8,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Site 2",5.51E-03,1.57E-03,Y
+3SVG,subsp.fastidiosa,Grapes,Vitis sp.,GA,"USA, Georgia, North Georgia",0.00E+00,0.00E+00,Y
+4rd+1,subsp.multiplex,sycamore,Platanus occidentalis,GA,"USA, Georgia, Athens-Clarke",0.00E+00,0.00E+00,Y
+Alma311,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Alma, Bacon",0.00E+00,0.00E+00,Y
+AlmaReb2,subsp.fastidiosa,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Bacon, Blake Williams Farm",7.23E-03,4.16E-04,Y
+Alpha3,subsp.fastidiosa,Grapes,Vitis sp.,GA,"USA, Georgia, North Georgia",0.00E+00,0.00E+00,Y
+ALS10T14,subsp.fastidiosa,Almonds,Prunus dulcis,CA,"USA, California, Colusa",5.19E-03,4.91E-03,Y
+ALS10T3,subsp.multiplex,Almonds,Prunus dulcis,CA,"USA, California, Colusa",0.00E+00,0.00E+00,Y
+ALS12T1,subsp.multiplex,Almonds,Prunus dulcis,CA,"USA, California, Colusa",1.32E-02,6.18E-03,Y
+ALS14T3,subsp.multiplex,Almonds,Prunus dulcis,CA,"USA, California, Claribel",0.00E+00,0.00E+00,Y
+ALS14T5,subsp.fastidiosa,Almonds,Prunus dulcis,CA,"USA, California, Claribel",4.84E-03,3.64E-03,Y
+ALS17T10,subsp.fastidiosa,Almonds,Prunus dulcis,CA,"USA, California, San Joaquin",4.72E-03,2.78E-03,Y
+ALS17T9,subsp.fastidiosa,Almonds,Prunus dulcis,CA,"USA, California, San Joaquin",3.15E-02,3.13E-02,Y
+ALS6,subsp.multiplex,Almonds,Prunus dulcis,CA,"USA, California, San Joaquin",1.48E-03,3.19E-04,Y
+Ann-1,subsp.sandyi,Oleander,Nerium oleander,CA,"USA, California, Palm Springs",0.00E+00,0.00E+00,Y
+B3_SN17-2_IS,subsp.fastidiosa,Almonds,Prunus dulcis,Israel,Israel,3.58E-03,1.03E-03,Y
+BBI10,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Alma, Bacon",0.00E+00,0.00E+00,Y
+BBI12,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Alma, Bacon",0.00E+00,0.00E+00,Y
+BBI80,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Brantley, Hoboken",0.00E+00,0.00E+00,Y
+CFBP7969,subsp.fastidiosa,Grapes,Vitis rotundifolia,"NC, USA","USA, North Carolina",0.00E+00,0.00E+00,Y
+CFBP7970,subsp.fastidiosa,Grapes,Vitis vinifera,"FL, USA","USA, Florida",0.00E+00,0.00E+00,Y
+CFBP8068,subsp.multiplex,Elm,Ulmus sp,"WASH,USA","USA, Washington",0.00E+00,0.00E+00,Y
+CFBP8072,subsp.pauca,Coffee,Coffea arabica,Ecuador,Ecuador,0.00E+00,0.00E+00,Y
+CFBP8073,subsp.fastidiosa,Coffee,Coffea canephora,Mexico,Mexico,0.00E+00,0.00E+00,Y
+CFBP8074,subsp.pauca,Coffee,Coffea arabica,Ecuador,Ecuador,0.00E+00,0.00E+00,Y
+CFBP8075,subsp.multiplex,Plum,Prunus sp,"CA,USA",USA,0.00E+00,0.00E+00,Y
+CFBP8082,subsp.fastidiosa,ragweed,Ambrosia artemifolia,"FL, USA","USA, Florida",0.00E+00,0.00E+00,Y
+CFBP8083,subsp.fastidiosa,Grapes,Vitis vinifera,"NC, USA","USA, North Carolina",0.00E+00,0.00E+00,Y
+CFBP8084,subsp.morus,Mulberry,Morus alba,"GE,USA","USA, Georiga",0.00E+00,0.00E+00,Y
+CFBP8351,subsp.fastidiosa,Grapes,Vitis vinifera,"CA, USA","USA, California",1.73E-05,9.75E-06,Y
+CFBP8416,subsp.multiplex,Myrtle-leaf milkwort,Polygala myrtifolia,France,France,0.00E+00,0.00E+00,Y
+CFBP8417,subsp.multiplex,Spanish broom,Spartium junceum,France,France,0.00E+00,0.00E+00,Y
+CFBP8418,subsp.multiplex,Spanish broom,Spartium junceum,France,France,0.00E+00,0.00E+00,Y
+CFBP8478,subsp.sandyi,Coffee,Coffea arabica,Plant intercepted-France,France,0.00E+00,0.00E+00,Y
+CO33,subsp.sandyi,Coffee,Coffea arabica,Plant intercepted-Italy,Italy,0.00E+00,0.00E+00,Y
+De Donno,subsp.pauca,Olive,Olea europaea,Italy,"Italy, Apulia, Lecce, Galipolli - Li Sauli",0.00E+00,0.00E+00,Y
+Dixon,subsp.multiplex,Almonds,Prunus dulcis,CA,"USA, California",0.00E+00,0.00E+00,Y
+ESVL,subsp.multiplex,Almonds,Prunus dulcis,Spain,"Spain, Alicante",0.00E+00,0.00E+00,Y
+Fillmore,subsp.multiplex,Olive,Olea europaea,CA,"USA, California, Ventura",0.00E+00,0.00E+00,Y
+GIL GRA 274 ext,subsp.multiplex,weeds,Helianthus annuus,TX,"USA, Texas, Gillespie, Willow City",0.00E+00,0.00E+00,Y
+IAS-AXF212H7,subsp.multiplex,Almonds,Prunus dulcis,Spain,Spain,0.00E+00,0.00E+00,Y
+IAS-AXF64H11,subsp.multiplex,Almonds,Prunus dulcis,Spain,Spain,0.00E+00,0.00E+00,Y
+IVIA5235,subsp.fastidiosa,Sweet Cherry,Prunus avium,Spain,Spain,0.00E+00,0.00E+00,Y
+IVIA5770,subsp.fastidiosa,Grapes,Vitis vinifera,Spain,Spain,4.36E-07,2.33E-07,Y
+IVIA5901,subsp.multiplex,Almonds,Prunus dulcis,Spain,"Spain, Alicante",0.00E+00,0.00E+00,Y
+IVIA6902,subsp.multiplex,Almonds,Prunus dulcis,Spain,Spain,0.00E+00,0.00E+00,Y
+Je1,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Santa Barbara, Lompoc",3.09E-02,2.58E-02,Y
+Je103,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Temecula, Vista de Oro road",2.29E-03,2.50E-04,Y
+Je118,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Temecula, Avenida Arriba",1.14E-03,2.81E-04,Y
+Je13,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Sonoma, Bradford Mountain",6.64E-03,3.14E-03,Y
+Je17,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Sonoma, Bradford Mountain",1.48E-01,1.94E-02,Y
+Je35,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Napa valley, Conn Creek road",1.71E-02,1.50E-02,Y
+Je4,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Santa Barbara, Cebada Canyon road",1.18E-03,5.00E-04,Y
+Je43,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Napa valley, Rutherford",4.94E-03,4.41E-03,Y
+Je51,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Napa valley, Veteran peak (nearby)",1.68E-02,9.11E-03,Y
+Je60,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Bakersfiled, Tower Line road",1.03E-03,6.06E-04,Y
+Je63,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Bakersfield, General Beale road",8.46E-02,6.42E-02,Y
+Je73,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Bakersfield, Buena Vista boulevard",1.95E-03,1.35E-03,Y
+Je78,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Bakersfield, General Beale road",2.52E-02,1.72E-02,Y
+Je92,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Sonoma, Porter Creek",4.99E-03,2.43E-03,Y
+L95-1,subsp.multiplex,lupinus,Lupinus aridonum,FL,"USA, Florida, Orange",4.55E-02,1.90E-02,Y
+LA-Y3C,subsp.multiplex,Blueberry,Vaccinium ashei,LA,"USA, Louisiana, East Feliciana",1.32E-04,1.28E-04,Y
+LLAFAL718A,subsp.multiplex,weeds,Iva angustifolia,TX,"USA, Texas, Llano, Tow",0.00E+00,0.00E+00,Y
+LM10,subsp.multiplex,Olive,Olea europaea,CA,"USA, California, Los Angeles",0.00E+00,0.00E+00,Y
+M12,subsp.multiplex,Almonds,Prunus dulcis,CA,"USA, California, Kern",0.00E+00,0.00E+00,Y
+M23,subsp.fastidiosa,Almonds,Prunus dulcis,CA,"USA, California, San Joaquin Valley, Kern County",3.01E-06,2.77E-06,Y
+MEDPRI047,subsp.sandyi,Oleander,Nerium oleander,TX,"USA, Texas",0.00E+00,0.00E+00,Y
+Oak92-10,subsp.multiplex,pecan,Quercus nigra,FL,"USA, Florida, Lake",0.00E+00,0.00E+00,Y
+OC8,subsp.sandyi,Olive,Olea europaea,CA,"USA, California",0.00E+00,0.00E+00,Y
+PD7202,subsp.pauca,Olive,Olea europaea,Italy,Italy,0.00E+00,0.00E+00,Y
+AlmaReb1,subsp.fastidiosa,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Bacon, Blake Williams Farm",5.34E-03,3.66E-03,Y
+R2XF4358_18,subsp.fastidiosa,Italian buckthorn,Rhamnus alaternus,Spain,Spain,9.19E-05,8.15E-05,Y
+RBCF119,subsp.multiplex,pecan,Carya illinoinensis,GA,"USA, Alabama, Lowndes, Lowndesboro",0.00E+00,0.00E+00,Y
+Red_Oak_2,subsp.multiplex,Oak,Quercus rubra,GA,"USA, Georgia",0.00E+00,0.00E+00,Y
+RH1,subsp.multiplex,Olive,Olea europaea,CA,"USA, California, San Diego",0.00E+00,0.00E+00,Y
+Riv11,subsp.morus,Mulberry,Morus albus,CA,"USA, California, Riverside",0.00E+00,0.00E+00,Y
+Riv13,subsp.fastidiosa,redbud,Cercis occidentalis,CA,"USA, California, Riverside",3.35E-07,1.59E-08,Y
+Riv16,subsp.morus,Mulberry,Morus albus,CA,"USA, California, Riverside",0.00E+00,0.00E+00,Y
+Riv19,subsp.morus,Mulberry,Morus albus,CA,"USA, California, Riverside",3.17E-08,0.00E+00,Y
+Riv25,subsp.morus,Mulberry,Morus albus,CA,"USA, California, Riverside",0.00E+00,0.00E+00,Y
+Riv5,subsp.multiplex,Plum,Prunus cerasifera,CA,"USA, California, Riverside",0.00E+00,0.00E+00,Y
+Salento-1,subsp.pauca,Olive,Olea europaea,Italy,Italy,0.00E+00,0.00E+00,Y
+Santa29b,subsp.multiplex,lavender cotton,Santolina chamaecyparissus,Spain,Spain,0.00E+00,0.00E+00,Y
+SLO,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, San Luis Ovispo",1.19E-01,9.28E-02,Y
+SRBB,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, South Georgia",0.00E+00,0.00E+00,Y
+TemeculaL,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Temecula",5.36E-03,1.25E-03,Y
+UVA519_1B,subsp.multiplex,redbud,Cercis spp.,TX,"USA, Texas, Uvalde, Uvalde",0.00E+00,0.00E+00,Y
+VALVAL072Ext,subsp.multiplex,weeds,Ambrosia trifida var. texana,TX,"USA, Texas, Del Rio, Val Verde",0.00E+00,0.00E+00,Y
+XF3348,subsp.multiplex,Almonds,Prunus dulcis,Spain,"Spain, Mallorca",0.00E+00,0.00E+00,Y
+XF3967_18,subsp.fastidiosa,Grapes,Vitis vinifera,Spain,Spain,4.70E-06,0.00E+00,Y
+XYL1752_17,subsp.multiplex,Almonds,Prunus dulcis,Spain,Spain,0.00E+00,0.00E+00,Y
+XYL1961,subsp.pauca,Olive,Olea europaea,Spain,"Spain, Ibiza",0.00E+00,0.00E+00,Y
+XYL1966_18,subsp.multiplex,Olive,Olea europaea,Spain,Spain,0.00E+00,0.00E+00,Y
+XYL1968_18,subsp.multiplex,Olive,Olea europaea,Spain,Spain,0.00E+00,0.00E+00,Y
+XYL1981_17,subsp.multiplex,Fig,Ficus carica,Spain,Spain,0.00E+00,0.00E+00,Y
+XYL1981_18,subsp.multiplex,Almonds,Prunus dulcis,Spain,Spain,0.00E+00,0.00E+00,Y
+XYL2014_18,subsp.fastidiosa,Almonds,Prunus dulcis,Spain,Spain,1.08E-04,6.47E-05,Y
+XYL2017_18,subsp.fastidiosa,Almonds,Prunus dulcis,Spain,Spain,1.31E-04,1.04E-04,Y
+XYL2055_17,subsp.fastidiosa,Grapes,Vitis vinifera,Spain,Spain,7.58E-06,0.00E+00,Y
+XYL2093_18,subsp.fastidiosa,Almonds,Prunus dulcis,Spain,Spain,5.60E-06,0.00E+00,Y
+XYL2153_18,subsp.fastidiosa,Grapes,Vitis vinifera,Spain,Spain,6.08E-06,0.00E+00,Y
+XYL461,subsp.fastidiosa,Italian buckthorn,Rhamnus alaternus,Spain,Spain,3.74E-06,2.92E-06,Y
+XYL466_19,subsp.multiplex,Olive,Olea europaea,Spain,"Spain, Mallorca",0.00E+00,0.00E+00,Y
+XYL468,subsp.multiplex,Olive,Olea europaea,Spain,Spain,0.00E+00,0.00E+00,Y
+BB08-1,subsp.multiplex,Blueberry,Vaccinium spp.,FL,"USA, Florida, Palatka, Putnam",3.63E-05,1.16E-05,Y
+BBI64,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Brantley, Hoboken",0.00E+00,0.00E+00,Y
+BH-elm,subsp.multiplex,Elm,Ulmus americana,GA,"USA, Alabama, Jefferson, Birmingham",1.23E-04,6.22E-05,Y
+CCPM1,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Lumpking, Dahlonega",1.65E-03,6.28E-04,Y
+Conn-creek,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Napa Valley",8.24E-05,2.29E-05,Y
+EB92-1,subsp.fastidiosa,Elderberry,Sambucus spp.,FL,"USA, Florida, Lake, Leesburg",7.32E-05,4.27E-05,Y
+GAplum,subsp.multiplex,Plum,Prunus sp.,GA,"USA, Georgia",0.00E+00,0.00E+00,Y
+AlmaEM3,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia",7.48E-05,1.13E-05,Y
+Temecula1Star,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Temecula",2.15E-04,8.67E-05,Y
+Temecula1,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Temecula",4.76E-04,2.29E-04,Y
+WM1-1,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Lumpking, Dahlonega",2.40E-02,1.20E-02,Y
+AlmaReb3,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Bacon, Blake Williams Farm",0.00E+00,0.00E+00,NA
+AlmaStar1,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Bacon, Blake Williams Farm",3.37E-06,2.35E-06,NA
+AlmaStar2,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Bacon, Blake Williams Farm",6.32E-07,2.39E-08,NA
+AlmaStar3,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Bacon, Blake Williams Farm",1.64E-05,5.87E-06,NA
+BBI83,subsp.multiplex,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Brantley, Hoboken",0.00E+00,0.00E+00,N
+BB08-3,subsp.multiplex,Blueberry,Vaccinium spp.,FL,"USA, Florida, Palatka, Putnam",1.45E-03,7.80E-04,N
+CC Cab 1,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia",1.01E-02,7.44E-03,N
+CFBP8419,subsp.sandyi,Coffee,Coffea arabica,Plant intercepted-France,France,0.00E+00,0.00E+00,N
+EB 92-3,subsp.fastidiosa,Elderberry,Sambucus spp.,FL,"USA, Florida, Lake",1.04E-04,4.30E-05,N
+F2 Isol 3,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Lumpking, Dahlonega",1.88E-02,2.63E-03,N
+GIL BEC 625,subsp.fastidiosa,Grapes,Vitis vinifera,TX,"USA, Texas, Stonewall, Gillespie",3.37E-02,1.75E-02,N
+IAS-AXF235T1,subsp.multiplex,Almonds,Prunus dulcis,Spain,Spain,0.00E+00,0.00E+00,N
+King 3,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Kingsburg, Fresno",1.03E-02,2.78E-03,N
+L95-2,subsp.multiplex,lupinus,Lupinus villosus,FL,"USA, Florida, Levy",0.00E+00,0.00E+00,N
+PierceMed1,subsp.fastidiosa,Blueberry,Vaccinium spp.,GA,"USA, Georgia, Pierce, Stevie Yong Farm",7.51E-03,1.16E-03,N
+PD 92-8,subsp.fastidiosa,Grapes,Vitis sp.,FL,"USA, Florida, Lake, Leesburg",5.81E-07,2.79E-07,N
+PD 95-1,subsp.fastidiosa,Grapes,Vitis sp.,FL,"USA, Florida, Osceola, St. Cloud",1.85E-02,1.55E-02,N
+Ts Mer 1,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Lumpking, Dahlonega",3.23E-02,2.49E-02,N
+TS Vid 1,subsp.fastidiosa,Grapes,Vitis vinifera,GA,"USA, Georgia, Lumpking, Dahlonega",1.24E-02,3.82E-03,N
+Chard1,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California",5.09E-04,1.68E-04,N
+Fetzer,subsp.fastidiosa,Grapes,Vitis vinifera,CA,"USA, California, Napa",1.19E-04,2.85E-05,N

@@ -1,0 +1,32 @@
+#This script is used for running pyseer kmer-based method
+
+#step1.count Kmers from assemblies
+for f in ../fna_133/*.fna; do id=$(basename "$f" .fna); echo $id $f; done > fsm_file_list133.txt
+fsm-lite -l fsm_file_list133.txt -v -t ./fsm_kmers | gzip -c - > fsm_kmers.txt.gz
+
+#step2.calculate phylogeny's effect to correct for population structure
+#step2.1.generate phylogeny accounting for recombination
+#generate sap tree
+parsnp -r ../Temecula1.fna -d ../fna_133 -p 4 --vcf
+#rename alignment header
+awk -F ',' 'FNR == NR { replacements[$1] = $2; next } { for (old in replacements) gsub(old, replacements[old]) } 1' replacements.csv parsnp.xmfa > parsnp_newheader.xmfa
+#run clonalframeml
+ClonalFrameML parsnp.tre parsnp_newheader.xmfa 02 -xmfa_file true
+
+#step2.2.calculate phylogeny's effect
+python scripts/phylogeny_distance.py --lmm 02.labelled_tree.newick > phylogeny_K.tsv
+
+
+#step3.run pyseer 
+pyseer --lmm --phenotypes phen.txt --continuous --kmers fsm_kmers.txt.gz --similarity phylogeny_K.tsv --output-patterns kmer_patterns.txt --cpu 6 > kmers.txt	
+
+#step4.determine significance threshold and filter out not significant kmers
+python scripts/count_patterns.py kmers_pattern.txt > threshold.txt
+cat <(head -1 kmers.txt) <(awk '$4<3.72E-09 {print $0}' kmers.txt) > signi_kmers.txt
+
+#step5.plot qqplot
+python scripts/qq_plot.py kmers.txt
+
+#step6.annotating significant kmers and summarizing results
+annotate_hits_pyseer signi_kmers.txt reference.txt annotated_kmers.txt
+python scripts/summarise_annotations.py annotated_kmers.txt > gene_hits.txt

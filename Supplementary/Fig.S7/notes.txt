@@ -1,0 +1,3 @@
+phen.txt records binary phenotype (0: non-competent; 1: competent), generating Fig. S7a
+phen2.txt records phenotypes as log10 (Recombination rate*1e8), generating Fig. S7b
+phen3.txt records phenotypes as a scaled phenotype (0-3) based on recombination rate, generating Fig. S7c

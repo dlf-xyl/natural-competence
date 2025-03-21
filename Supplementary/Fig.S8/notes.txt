@@ -1,0 +1,2 @@
+gene_hits_kmer_phen2.txt is the pyseer result generated when using phenotype as log10 (Recombination rate*1e8), plotted as Fig. S8a
+gene_hits_kmer_phen3.txt is the pyseer result generated when using phenotype as a scaled phenotype (0-3) based on recombination rate, plotted as Fig. S8b
